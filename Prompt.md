@@ -1,4 +1,4 @@
-Zero-shot prompt:
+Zero-shot prompt://
 You are an expert in clinical natural language processing.
 
 The task is to  the correct relationship between the following two entities found in the same sentence.
@@ -10,7 +10,7 @@ Entities: "{ent1}" ({label1}), "{ent2}" ({label2})
 Choose only one of the following relations: suggestive_of, located_at, modify
 Just output the chosen relation as a single word (no explanation).
 
-Instructional prompt:
+Instructional prompt://
 You are an expert in clinical natural language processing.
 Based on the information provided, determine the relationship between two entities in a radiology sentence.
 
@@ -31,7 +31,7 @@ What is the correct relationship between "{ent1}" ({label1}) and "{ent2}" ({labe
 Choose only one of the following relations: suggestive_of, located_at, modify
 Just output the chosen relation as a single word (no explanation)
 
-Chain-of-thought prompt:
+Chain-of-thought prompt://
 You are an expert in clinical natural language processing.
 Based on the information provided, determine the relationship between two entities in a radiology sentence.
 Here are the definitions of the entities and possible relationships:
@@ -64,7 +64,7 @@ Q: What is the correct relationship between "{ent1}" ({label1}) and "{ent2}" ({l
 "{note}"
 Answer:(ONE WORD ONLY)
 
-Few-shot prompt:
+Few-shot prompt://
 Based on the information provided, determine the relationship between two entities in a radiology sentence.
 
 Here are some examples:
@@ -89,7 +89,7 @@ What is the correct relationship between "{ent1}" ({label1}) and "{ent2}" ({labe
 "{note}"
 
 
-Instructional&few-shot prompt:
+Instructional&few-shot prompt://
 You are an expert in clinical natural language processing.
 Based on the information provided, determine the relationship between two entities in a radiology sentence.
 
